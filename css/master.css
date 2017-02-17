@@ -1,0 +1,33 @@
+ul {
+    padding: 0;
+    height: 40em;
+    width: 50em;
+    margin: auto;
+    border: 1px solid lightblue;
+    background-color: lightgrey;
+    list-style: none;
+    display: flex;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 44%;
+    display:
+}
+
+.hidden {
+    width: 0;
+
+}
+
+.shown {
+    width: 800px;
+
+}
+
+img {
+    transition: 0.5s;
+}
