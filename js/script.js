@@ -12,14 +12,15 @@ for (var i = 0; i < 10; i++) {
     listElement.appendChild(imgArray[i]);
     imgArray[i].className = "hidden";
 }
+
 var current = 0;
-imgArray[current].className = null;
+imgArray[current].className = "shown";
 
 
 nxtBtn.addEventListener("click", function() {
     imgArray[current].className = "hidden";
     current = (current +1) % imgArray.length;
-    imgArray[current].className = null;
+    imgArray[current].className = "shown";
 });
 
 prvBtn.addEventListener("click", function() {
@@ -29,6 +30,6 @@ prvBtn.addEventListener("click", function() {
         current = imgArray.length - 1;
         console.log(current);
     }
-    imgArray[current].className = null;
+    imgArray[current].className = "shown";
 
 });

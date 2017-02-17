@@ -33,7 +33,7 @@ div {
     height: 0;
 }
 
-img.null {
+img.shown {
     transition: 0.5s;
     border: 2px solid lightblue;
 }
