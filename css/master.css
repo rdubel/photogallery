@@ -17,6 +17,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 div {
@@ -34,7 +35,8 @@ div {
 }
 
 img.shown {
-    transition: 0.5s;
+    transform: rotate(1080deg);
+    transition: 1s ease-in;
     border: 2px solid lightblue;
 }
 
