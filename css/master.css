@@ -1,12 +1,22 @@
+body {
+    background: radial-gradient(circle, rgb(80, 8, 193), rgb(158, 199, 252), rgb(185, 58, 208));
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 3em;
+}
 ul {
     padding: 0;
     height: 40em;
     width: 50em;
     margin: auto;
-    border: 1px solid lightblue;
-    background-color: lightgrey;
+    border: 2px solid lightblue;
+    background-color: black;
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
 div {
@@ -20,14 +30,17 @@ div {
 
 .hidden {
     width: 0;
-
+    height: 0;
 }
 
-.shown {
-    width: 800px;
-
-}
-
-img {
+img.null {
     transition: 0.5s;
+    border: 2px solid lightblue;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
